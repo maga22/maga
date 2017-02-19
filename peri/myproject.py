@@ -9,53 +9,74 @@ print('Данные для входа в тестовый аккаунт\n'
 'Логин:test\n'
 'Пароль:тест\n')
 
+def main():
+    log = input('У вас есть аккаунт?:'.lower())
+    if log == 'да':
+        login = input('Введите логин:')
+        password = input('Введите пароль:')
+        bd_login = open('bd_login.txt','r')
+        bd_password = open('bd_password.txt','r')
+        kk = bd_login.read()
+        bb = bd_password.read()
+        if login in kk or login == 'test' and password in bb or password == 'test' :
+            print('Вы авторизовались.Доступный список:')
+            while True:
+                list = ['1.Добавить автора и книгу','2.Посмотреть доступных авторов']
+                for i in list:
+                    print(i)
+                choice = input('Ваш выбор: ')
+                if choice == '1':
+                    name = input('Введите имя автора:')
+                    book = input('Введите название книги:')
+                    other[name] = book
+                if choice == '2':
+                    print('Книги Стивена Кинга:')
+                    for i in king['Стивен Кинг']:
+                       print(i)
+                    print('\n\n\nКниги Дж.К.Роулинг:')
+                    for i in rowling['Дж.К.Роулинг']:
+                        print(i)
+                    print('Книги', name)
+                    print(other[name])
+                else:
+                    print('Такого пункта нет')
 
-log = input('У вас есть аккаунт?:'.lower())
-if log == 'да':
-    login = input('Введите логин:')
-    password = input('Введите пароль:')
-    if login == 'test' and password == 'test':
-        print('Вы авторизовались.Доступный список:')
+    else:
+        logg = input('Хотите зарегистрироваться?:')
+        if logg == 'да':
+            log_reg = input('Введите имя пользователя:')
+            pas_reg = input('Введите пароль:')
+            bd_login = open('bd_login.txt','a')
+            bd_password = open('bd_password.txt','a')
+            bd_login.write(log_reg + '\n')
+            bd_password.write(pas_reg + '\n')
+            bd_login.close()
+            bd_password.close()
+            print('Вы успешно зарегестрировались!\
+                Можете пользоваться программой.')
+        else:
+            print('Ваши права будут ограничены.\n'
+            'Вы не сможете добавлять книги и авторов')
         while True:
-            list = ['1.Добавить автора и книгу','2.Посмотреть доступных авторов']
+            list = ['1.Добавить автора и книгу', '2.Посмотреть доступных авторов']
             for i in list:
                 print(i)
-            choice = input('Ваш выбор: ')
-            if choice == '1':
-                name = input('Введите имя автора:')
-                book = input('Введите название книги:')
-                other[name] = book
-            if choice == '2':
+            choice_unlog = input('Ваш выбор:')
+            if choice_unlog == '1':
+                print('Недоступно для неавторизованных пользователей, используйте тестовый аккаунт.')
+            if choice_unlog == '2':
                 print('Книги Стивена Кинга:')
                 for i in king['Стивен Кинг']:
-                   print(i)
+                    print(i)
                 print('\n\n\nКниги Дж.К.Роулинг:')
                 for i in rowling['Дж.К.Роулинг']:
                     print(i)
-                print('Книги', name)
-                print(other[name])
-            else:
-                print('Такого пункта нет')
+            if choice_unlog != '1' and choice_unlog != '2':
+                print('Такого пункта нет.')
 
-else:
-    print('Ваши права будут ограничены.\n'
-'Вы не сможете добавлять книги и авторов')
-    while True:
-        list = ['1.Добавить автора и книгу', '2.Посмотреть доступных авторов']
-        for i in list:
-            print(i)
-        choice_unlog = input('Ваш выбор:')
-        if choice_unlog == '1':
-            print('Недоступно для неавторизованных пользователей, используйте тестовый аккаунт.')
-        if choice_unlog == '2':
-            print('Книги Стивена Кинга:')
-            for i in king['Стивен Кинг']:
-                print(i)
-            print('\n\n\nКниги Дж.К.Роулинг:')
-            for i in rowling['Дж.К.Роулинг']:
-                print(i)
-        if choice_unlog != '1' and choice_unlog != '2':
-            print('Такого пункта нет.')
+main()
+
+
 
 
 
