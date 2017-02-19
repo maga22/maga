@@ -1,54 +1,35 @@
-class Weapon:
-    def __init__(self, name, damage, count):
-        self.name = name
-        self.damage = damage
-        self.count = count
+# file1 = open('arslan_ne_virus.txt', 'wt', encoding='utf-8')
+# file1.write('Мощь зеленого великана безгранична\n')
+# file1.write('Саша Молников\n')
+# print('все что нужно', file=file1)
+# file1.close()
 
 
-class Character:
-    def __init__(self, name, hp, damage):
-        self.name = name
-        self.hp = hp
-        self.damage = damage
-
-    def attack(self, victim):
-        victim.hp -= self.damage
-        print("{0.name} нанёс {1.name} {0.damage} урона".format(self, victim))
-
-
-class Zombie(Character):
-    pass
-
-
-class Player(Character):
-    def __init__(self, name, hp, damage, weapon):
-        super().__init__(name, hp, damage)
-        self.weapon = weapon
-
-    def attack(self, victim):
-        dmg = self.damage + self.weapon.damage
-        victim.hp -= dmg
-        self.weapon.count -= 1
-        print("{0.name} нанёс {1.name} {2} урона".format(self, victim, dmg))
+# file1 = open('arslan_ne_virus.txt', 'rt',encoding='utf-8')
+# # text = file1.read(8)
+# line1 = file1.readline()
+# line2 = file1.readline()
+# file1.close()
+# print(line1 + line2)
+#
+# file1 = open('arslan_ne_virus.txt', 'rt',encoding='utf-8')
+# for line in file1:
+#     print(line ,line,end='', sep='+')
+#
+# file1.close()
 
 
-class Game:
-    def start():
-        weapon = Weapon("SUperPuper", 189, 5)
-        player = Player("Кадырл", 1000, 100, weapon)
-        zombie = Zombie("Аркадий паравозов", 500, 50)
-        count = 0
-        while True:
-            player.attack(zombie)
-            zombie.attack(player)
-            input()
-            if player.hp <= 0:
-                print("Ты умер !!! и получил {0} очков".format(count))
-                break
-            if zombie.hp <= 0:
-                zombie = Zombie("Аркадий паравозов", 500, 50)
-                count += 1
-                print("Ты убил зомби")
+# text = '''Sweet dreams all made of this
+# Whop am I to disagree'''
+#
+# with open('sweet.txt','wt',encoding='utf-8') as f:
+#     f.write(text)
 
 
-Game.start()
+
+# text2 = '''\nI traveled the world and the seven seas
+# Everybody is looking for something'''
+# with open('sweet.txt','at',encoding='utf-8') as f:
+#      f.write(text2)
+
+
