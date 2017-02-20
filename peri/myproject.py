@@ -16,9 +16,9 @@ def main():
         password = input('Введите пароль:')
         bd_login = open('bd_login.txt','r')
         bd_password = open('bd_password.txt','r')
-        kk = bd_login.read()
-        bb = bd_password.read()
-        if login in kk or login == 'test' and password in bb or password == 'test' :
+        bd_login_read = bd_login.read()
+        bd_password_read = bd_password.read()
+        if login in bd_login_read or login == 'test' and password in bd_password_read or password == 'test' :
             print('Вы авторизовались.Доступный список:')
             while True:
                 list = ['1.Добавить автора и книгу','2.Посмотреть доступных авторов']
@@ -28,16 +28,20 @@ def main():
                 if choice == '1':
                     name = input('Введите имя автора:')
                     book = input('Введите название книги:')
-                    other[name] = book
+                    bd_books = open('bd_books.txt','a')
+                    bd_authors = open('bd_authors.txt','a')
+                    bd_authors.write(name)
+                    bd_books.write(book)
+                    bd_books.close()
+                    bd_authors.close()
                 if choice == '2':
-                    print('Книги Стивена Кинга:')
-                    for i in king['Стивен Кинг']:
-                       print(i)
-                    print('\n\n\nКниги Дж.К.Роулинг:')
-                    for i in rowling['Дж.К.Роулинг']:
-                        print(i)
-                    print('Книги', name)
-                    print(other[name])
+                    bd_authors = open('bd_authors.txt','r')
+                    bd_books = open('bd_books.txt','r')
+                    bd_authors_read = bd_authors.readline()
+                    print(bd_authors_read)
+                    bd_books_read = bd_books.readline()
+                    print(bd_books_read)
+
                 else:
                     print('Такого пункта нет')
 
@@ -75,16 +79,3 @@ def main():
                 print('Такого пункта нет.')
 
 main()
-
-
-
-
-
-
-
-
-
-
-
-
-
