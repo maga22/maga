@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu>
+  <breakfest time='7:20'>
+    <item>Хлеб с сыром</item>
+    <item>Чай</item>
+  </breakfest>
+  <lunch>
+    <item>Хинкал</item>
+    <item>Салат Московский</item>
+    <item>Сок</item>
+  </lunch>
+</menu>
