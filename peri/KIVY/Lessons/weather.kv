@@ -1,0 +1,17 @@
+AddLocationForm:
+
+<AddLocationForm@BoxLayout>:
+    orientation: 'vertical'
+    BoxLayout:
+        height: '40dp'  # dp - пикселей дисплея, значит, что TextInput и 2 Button будут тоже это размера по высоте
+        size_hint_y: None
+        TextInput:
+            size_hint_x: 50  # забирает половину размера BoxLayout по горизонтали
+        Button:
+            text: 'Search'
+            size_hint_x: 25
+        Button:
+            text: 'Current Location'
+            size_hint_x: 25
+    Label:
+        text: 'Palo Alto, MX', 'Palo Alto, US'
