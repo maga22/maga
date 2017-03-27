@@ -1,0 +1,55 @@
+[13.03.2017 22:27:13] bot.py:45 INFO - [VK] started scanning for new posts
+[13.03.2017 22:27:13] bot.py:51 INFO - Last ID (VK) = 31986
+[13.03.2017 22:27:15] bot.py:69 INFO - New last_id (VK) is 31986
+[13.03.2017 22:27:15] bot.py:76 INFO - [VK] Finished scanning
+[13.03.2017 22:27:15] bot.py:93 INFO - [App] Script went to sleep.
+[13.03.2017 22:31:15] bot.py:45 INFO - [VK] started scanning for new posts
+[13.03.2017 22:31:15] bot.py:51 INFO - Last ID (VK) = 31986
+[13.03.2017 22:31:16] bot.py:69 INFO - New last_id (VK) is 31986
+[13.03.2017 22:31:16] bot.py:76 INFO - [VK] Finished scanning
+[13.03.2017 22:31:16] bot.py:93 INFO - [App] Script went to sleep.
+[13.03.2017 22:35:16] bot.py:45 INFO - [VK] started scanning for new posts
+[13.03.2017 22:35:16] bot.py:51 INFO - Last ID (VK) = 31986
+[13.03.2017 22:35:16] bot.py:69 INFO - New last_id (VK) is 31986
+[13.03.2017 22:35:16] bot.py:76 INFO - [VK] Finished scanning
+[13.03.2017 22:35:16] bot.py:93 INFO - [App] Script went to sleep.
+[13.03.2017 22:39:16] bot.py:45 INFO - [VK] started scanning for new posts
+[13.03.2017 22:39:16] bot.py:51 INFO - Last ID (VK) = 31986
+[13.03.2017 22:39:17] bot.py:69 INFO - New last_id (VK) is 31986
+[13.03.2017 22:39:17] bot.py:76 INFO - [VK] Finished scanning
+[13.03.2017 22:39:17] bot.py:93 INFO - [App] Script went to sleep.
+[13.03.2017 22:43:17] bot.py:45 INFO - [VK] started scanning for new posts
+[13.03.2017 22:43:17] bot.py:51 INFO - Last ID (VK) = 31986
+[13.03.2017 22:43:17] bot.py:69 INFO - New last_id (VK) is 31986
+[13.03.2017 22:43:17] bot.py:76 INFO - [VK] Finished scanning
+[13.03.2017 22:43:17] bot.py:93 INFO - [App] Script went to sleep.
+[13.03.2017 22:47:17] bot.py:45 INFO - [VK] started scanning for new posts
+[13.03.2017 22:47:17] bot.py:51 INFO - Last ID (VK) = 31986
+[13.03.2017 22:47:21] bot.py:69 INFO - New last_id (VK) is 31991
+[13.03.2017 22:47:21] bot.py:76 INFO - [VK] Finished scanning
+[13.03.2017 22:47:21] bot.py:93 INFO - [App] Script went to sleep.
+[13.03.2017 22:51:21] bot.py:45 INFO - [VK] started scanning for new posts
+[13.03.2017 22:51:21] bot.py:51 INFO - Last ID (VK) = 31991
+[13.03.2017 22:51:21] bot.py:69 INFO - New last_id (VK) is 31991
+[13.03.2017 22:51:21] bot.py:76 INFO - [VK] Finished scanning
+[13.03.2017 22:51:21] bot.py:93 INFO - [App] Script went to sleep.
+[15.03.2017 15:15:30] bot.py:45 INFO - [VK] started scanning for new posts
+[15.03.2017 15:15:30] bot.py:51 INFO - Last ID (VK) = 31991
+[15.03.2017 15:15:43] bot.py:69 INFO - New last_id (VK) is 32159
+[15.03.2017 15:15:43] bot.py:76 INFO - [VK] Finished scanning
+[15.03.2017 15:15:43] bot.py:93 INFO - [App] Script went to sleep.
+[15.03.2017 15:19:43] bot.py:45 INFO - [VK] started scanning for new posts
+[15.03.2017 15:19:43] bot.py:51 INFO - Last ID (VK) = 32159
+[15.03.2017 15:19:44] bot.py:69 INFO - New last_id (VK) is 32159
+[15.03.2017 15:19:44] bot.py:76 INFO - [VK] Finished scanning
+[15.03.2017 15:19:44] bot.py:93 INFO - [App] Script went to sleep.
+[15.03.2017 15:23:44] bot.py:45 INFO - [VK] started scanning for new posts
+[15.03.2017 15:23:44] bot.py:51 INFO - Last ID (VK) = 32159
+[15.03.2017 15:24:10] bot.py:69 INFO - New last_id (VK) is 32162
+[15.03.2017 15:24:10] bot.py:76 INFO - [VK] Finished scanning
+[15.03.2017 15:24:10] bot.py:93 INFO - [App] Script went to sleep.
+[15.03.2017 15:28:10] bot.py:45 INFO - [VK] started scanning for new posts
+[15.03.2017 15:28:10] bot.py:51 INFO - Last ID (VK) = 32162
+[15.03.2017 15:28:10] bot.py:69 INFO - New last_id (VK) is 32162
+[15.03.2017 15:28:10] bot.py:76 INFO - [VK] Finished scanning
+[15.03.2017 15:28:10] bot.py:93 INFO - [App] Script went to sleep.
