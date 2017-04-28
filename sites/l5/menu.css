@@ -1,0 +1,26 @@
+ul {
+  width: 200px;
+  height: 100vh;
+  border: 1px solid #6F9;
+  background-color: #999;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+ul li a {
+  color: #F11111;
+  display: block;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 0;
+  background-color: #FA5;
+  border-bottom: 2px solid #EEE;
+}
+
+a:hover {
+  background-color: #614096;
+}
+a:active {
+  background-color: #AFA;
+}

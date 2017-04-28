@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Регистрация</title>
+</head>
+<body>
+    <form name='register' action='abdulkadir.php'>
+      <label>Имя:</label>
+      <input type="text" name="name" placeholder="Имя" required>
+      <br><br>
+
+      <label>Почта:</label>
+      <input type="email" name="email" placeholder="exam@mail.com">
+      <br><br>
+
+
+      <label>Пароль:</label>
+      <input type="password" name="password">
+      <br><br>
+
+
+      <label>IQ:</label>
+      <input type="number" name="iq" placeholder="Your IQ" min="0" max="200">
+      <br><br>
+
+
+
+      <label>Дата рождения:</label>
+      <input type="date" name="date">
+      <br><br>
+
+
+
+      <label>Пол:</label>
+      <br>
+      <label>Мужской</label>
+      <input type="radio" name="xx" value="man" checked="checked">
+      <label>Женский</label>
+      <input type="radio" name="xx" value="woman">
+      <br><br>
+
+
+
+
+
+      <label>Прикрепить фото</label>
+      <input type="file" name="photo">
+      <br><br>
+
+
+
+
+      <label>О себе</label>
+      <br>
+      <textarea rows="10"></textarea>
+      <br><br>
+
+
+
+      <label>Город:</label>
+      <select name='city'>
+        <option value='1'>Махачкала</option>
+        <option value='2'>Москва</option>
+      </select>
+      <br><br>
+
+
+
+
+
+      <input type="submit" name="ok" value="Отправить">
+      <input type="reset" name="reset" value="Отмена">
+
+    </form>
+</body>
+</html>

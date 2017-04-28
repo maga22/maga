@@ -1,0 +1,10 @@
+.photo {
+  margin-left: 550px;
+}
+.main_info {
+  padding: 3px;
+  border: 3px solid red;
+}
+.cost {
+  border: 3px dashed green;
+}

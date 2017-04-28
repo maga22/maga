@@ -1,0 +1,27 @@
+div {
+  border: 1px solid #F44;
+  width: 200px;
+  height: 200px;
+}
+.align1 {
+  display: block;
+  text-align: center;
+  margin: auto;
+
+
+}
+img {
+  width: 250px;
+}
+
+.align2 {
+  float:right;
+}
+.align6 {
+  box-sizing: border-box;
+  padding: 100px;
+}
+.align7 {
+  line-height: 200px;
+  text-align: center;
+}
